@@ -79,6 +79,26 @@ For more, go to [qiniu-kit](https://github.com/why404/qiniu-kit).
 
 - Qiniu::Policy::Get
 
+## Supported Ruby versions
+
+This library aims to support and is [tested against](https://travis-ci.org/why404/qiniu-kit) the following Ruby implementations:
+
+- MRI 2.1.0
+- MRI 2.0.0
+- MRI 1.9.3
+- MRI 1.9.2
+- MRI 1.8.7
+- JRuby 1.7.9 in Ruby 1.8 mode
+- JRuby 1.7.9 in Ruby 1.9 mode
+- Ruby Enterprise Edition 1.8.7 2012.02
+- Ruby (latest master)
+- [JRuby](http://jruby.org/) (latest master)
+- [Rubinius](http://rubini.us/)
+
+If something doesn't work on one of these Ruby versions, it's a bug.
+
+This library may inadvertently work (or seem to work) on other Ruby implementations, however support will only be provided for the versions listed above.
+
 ## Contributing
 
 1. Fork it ( <http://github.com/why404/qiniu-policy/fork> )
