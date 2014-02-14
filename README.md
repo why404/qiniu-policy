@@ -1,5 +1,11 @@
 # qiniu-policy
 
+[![Build Status](https://travis-ci.org/why404/qiniu-policy.png?branch=master)](https://travis-ci.org/why404/qiniu-policy)
+[![Dependency Status](https://gemnasium.com/why404/qiniu-policy.png)](https://gemnasium.com/why404/qiniu-policy)
+[![Coverage Status](https://coveralls.io/repos/why404/qiniu-policy/badge.png)](https://coveralls.io/r/why404/qiniu-policy)
+[![Code Climate](https://codeclimate.com/github/why404/qiniu-policy.png)](https://codeclimate.com/github/why404/qiniu-policy)
+[![Gem Version](https://badge.fury.io/rb/qiniu-policy.png)](http://badge.fury.io/rb/qiniu-policy)
+
 Authorization library used to generate upload/download tokens of Qiniu Cloud Storage.
 
 ## Installation
