@@ -12,7 +12,7 @@ module Qiniu
           @mac = Qiniu::Kit::Mac.new
         else
           unless mac_object.instance_of?(Qiniu::Kit::Mac)
-            raise Qiniu::NotAnInstanceOfError.new("Invalid mac object")
+            raise Qiniu::Errors::NotAnInstanceOfError.new("Invalid mac object")
           end
           @mac = mac_object
         end
