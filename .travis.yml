@@ -1,0 +1,24 @@
+language: ruby
+rvm:
+- 1.8.7
+- 1.9.2
+- 1.9.3
+- 2.0.0
+- 2.1.0
+- ruby-head
+- jruby-18mode
+- jruby-19mode
+- jruby-head
+- rbx
+- ree
+before_script:
+- export QINIU_ACCESS_KEY=key_for_test
+- export QINIU_SECRET_KEY=secret_for_test
+deploy:
+  provider: rubygems
+  api_key:
+    secure: dFb7wl5NabGx+uhx6sph47sTVV1zdgHH+n5wsaIyLkQmGZPdgDc0Kz1Gr3XrKzUTjFeiKwRnPkamqMReweq/nkH43Z/F01dgPdgWVNekDTFEd6V06VXN00yhHeCLpQo52YdJ9f/gPsZKlCiOo+4Y3uwzClS3n8pT8kXb2M8z3ao=
+  gem: qiniu-policy
+  on:
+    tags: true
+    repo: why404/qiniu-policy
