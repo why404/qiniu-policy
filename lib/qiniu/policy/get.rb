@@ -4,6 +4,7 @@ module Qiniu
   module Policy
     module Get
       class << self
+        # just for testing
       end
     end
   end
